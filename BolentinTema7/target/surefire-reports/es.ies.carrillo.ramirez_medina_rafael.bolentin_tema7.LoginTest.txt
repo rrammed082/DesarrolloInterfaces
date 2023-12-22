@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: es.ies.carrillo.ramirez_medina_rafael.bolentin_tema7.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.204 s <<< FAILURE! - in es.ies.carrillo.ramirez_medina_rafael.bolentin_tema7.LoginTest
+es.ies.carrillo.ramirez_medina_rafael.bolentin_tema7.LoginTest.testLoginCorrecto()  Time elapsed: 0.201 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "java.net.URL.toExternalForm()" because "location" is null
+	at java.desktop/javax.swing.ImageIcon.<init>(ImageIcon.java:232)
+	at es.ies.carrillo.ramirez_medina_rafael.bolentin_tema7.vista.CredentialsList.<init>(CredentialsList.java:416)
+	at es.ies.carrillo.ramirez_medina_rafael.bolentin_tema7.controlador.ControladorLogin.comprobarLogin(ControladorLogin.java:34)
+	at es.ies.carrillo.ramirez_medina_rafael.bolentin_tema7.LoginTest.testLoginCorrecto(LoginTest.java:16)
+
+es.ies.carrillo.ramirez_medina_rafael.bolentin_tema7.LoginTest.testCamposVacios()  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "java.net.URL.toExternalForm()" because "location" is null
+	at java.desktop/javax.swing.ImageIcon.<init>(ImageIcon.java:232)
+	at es.ies.carrillo.ramirez_medina_rafael.bolentin_tema7.vista.DialogInformation.<init>(DialogInformation.java:59)
+	at es.ies.carrillo.ramirez_medina_rafael.bolentin_tema7.controlador.ControladorLogin.comprobarLogin(ControladorLogin.java:29)
+	at es.ies.carrillo.ramirez_medina_rafael.bolentin_tema7.LoginTest.testCamposVacios(LoginTest.java:30)
+
+es.ies.carrillo.ramirez_medina_rafael.bolentin_tema7.LoginTest.testLoginIncorrecto()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "java.net.URL.toExternalForm()" because "location" is null
+	at java.desktop/javax.swing.ImageIcon.<init>(ImageIcon.java:232)
+	at es.ies.carrillo.ramirez_medina_rafael.bolentin_tema7.vista.DialogInformation.<init>(DialogInformation.java:59)
+	at es.ies.carrillo.ramirez_medina_rafael.bolentin_tema7.controlador.ControladorLogin.comprobarLogin(ControladorLogin.java:40)
+	at es.ies.carrillo.ramirez_medina_rafael.bolentin_tema7.LoginTest.testLoginIncorrecto(LoginTest.java:23)
+
