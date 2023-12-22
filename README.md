@@ -16,4 +16,4 @@ En este proyecto de Java, se ha desarrollado una aplicación que permite almacen
 
 ## Autor
 
-**Autor: [Rafael Ramírez Medina]**
+**Autor: Rafael Ramírez Medina**
